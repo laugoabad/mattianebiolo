@@ -36,10 +36,8 @@
   }
 
   .imagenes{
-    list-style: none;
-    display: inline;
     margin: 20px;
-    min-width: 200px;
+    min-width: 150px;
   }
 
   ul{
