@@ -39,6 +39,7 @@
     list-style: none;
     display: inline;
     margin: 20px;
+    min-width: 200px;
   }
 
   ul{
@@ -108,7 +109,6 @@
     margin-bottom: 30px;
     margin-top: 40px;
   }
-
 
   .zoom {
     transition: transform 1s; /* Animation */
