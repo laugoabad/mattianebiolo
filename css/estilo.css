@@ -1,0 +1,202 @@
+  body{
+    background-color: #F7F4F4;
+    margin:40px 60px 40px 60px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100%;
+  }
+
+  h6 {
+    color: #ad9d98;
+  }
+
+  p{
+    color:grey;
+    font-size: 0.5em;
+  }
+
+  ul{
+    list-style: none;
+  }
+
+  a, a:hover, a:visited, a:link {
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-margin-left: auto;
+    -webkit-margin-right: auto;
+    text-align: center;
+    -webkit-text-align: center;
+  }
+
+  .titulo-seccion{
+    color: black;
+    font-size: 3.2em;
+    letter-spacing: 4px;
+    margin: 80px;
+  }
+
+  .imagenes{
+    list-style: none;
+    display: inline;
+    margin: 20px;
+  }
+
+  ul{
+    list-style: none;
+    margin: 30px 0 30px 0;
+  }
+
+  .hola {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    background-color: black;
+    color: white;
+    font-size: 1.6em;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom:10px;
+    box-shadow: 8px 8px 4px grey;
+    border: none;
+    text-decoration: none;
+    -webkit-animation-name: altura3;
+    -moz-animation-name: altura3;
+    -o-animation-name: altura3;
+    animation-name: altura3;
+    animation-fill-mode: both;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+  }
+
+  .scroll {
+    -webkit-animation-name: altura1, altura2;
+    -moz-animation-name: altura1, altura2;
+    -o-animation-name: altura1, altura2;
+    animation-name: altura1, altura2;
+    animation-fill-mode: both, none;
+    animation-duration:  4s, 4s;
+    animation-delay: 0s, 4s;
+    animation-iteration-count: 1, infinite;
+    animation-timing-function: ease-in-out, ease-in-out;
+  }
+
+  .saludo1{
+    color:black;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 5em;
+    font-weight: 900;
+    animation-duration: 4s;
+  }
+
+  .saludo2{
+    font-size: 4em;
+    color: #333333;
+    text-align: center;
+    animation-duration: 4s;
+    margin-bottom: 30px;
+  }
+
+  .saludo3{
+    width: 100%;
+    font-size: 2em;
+    color: #333333;
+    text-align: center;
+    animation-duration: 9s;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    /* animation-name: animateSkills; */
+    /* animation-iteration-count: infinite;
+    animation-direction:normal;
+    animation-fill-mode: both;
+    animation-timing-function: linear; */
+  }
+
+
+  @keyframes altura1 {
+    0% { transform: translate(0px, 600px);}
+    100% {transform: translate(0px,0px);}
+  }
+
+  @-o-keyframes altura1 {
+    0% { transform: translate(0px, 600px);}
+    100% {transform: translate(0px,0px);}
+  }
+  @-moz-keyframes altura1 {
+    0% { transform: translate(0px, 600px);}
+    100% {transform: translate(0px,0px);}
+  }
+
+  @-webkit-keyframes altura1 {
+    0% { transform: translate(0px, 600px);}
+    100% {transform: translate(0px,0px);}
+  }
+
+  @keyframes altura2 {
+    0% {transform: translate(0px, 0px);}
+    50% {transform: translate(0px, 100px);}
+    100% {transform: translate(0px, 0px);}
+  }
+
+  @-o-keyframes altura2 {
+    0% {transform: translate(0px, 0px); }
+    50% {transform: translate(0px, 100px);}
+    100% {transform: translate(0px, 0px);}
+  }
+  @-moz-keyframes altura2 {
+    0% {transform: translate(0px, 0px);}
+    50% {transform: translate(0px, 100px);}
+    100% {transform: translate(0px, 0px);}
+  }
+
+  @-webkit-keyframes altura2 {
+    0% {transform: translate(0px, 0px);}
+    50% {transform: translate(0px, 100px);}
+    100% {transform: translate(0px, 0px);}
+  }
+
+  @keyframes altura3 {
+    0% { transform: translate(0px, -200px);}
+    50% {transform: translate(0px, 120px);}
+    100% {transform: translate(0px,0px);}
+  }
+
+  @-o-keyframes altura3 {
+    0% { transform: translate(0px, -200px);}
+    50% {transform: translate(0px, 120px);}
+    100% {transform: translate(0px,0px);}
+  }
+
+  @-moz-keyframes altura3 {
+    0% { transform: translate(0px, -200px);}
+    50% {transform: translate(0px, 120px);}
+    100% {transform: translate(0px,0px);}
+  }
+
+  @-webkit-keyframes altura3 {
+    0% { transform: translate(0px, -200px);}
+    50% {transform: translate(0px, 120px);}
+    100% {transform: translate(0px,0px);}
+  }
+
+
+  /* @keyframes animateSkills {
+    0% { transform: translateX(-1000px);}
+    100% {transform: translate(1300px);}
+  }
+
+  @-o-keyframes animateSkills  {
+    0% { transform: translate(-1000px);}
+    100% {transform: translate(1300px);}
+  }
+  @-moz-keyframes animateSkills {
+    0% { transform: translate(-1000px);}
+    100% {transform: translate(1300px);}
+  }
+
+  @-webkit-keyframes animateSkills  {
+    0% { transform: translate(-1000px);}
+    100% {transform: translate(1300px);}
+  } */
