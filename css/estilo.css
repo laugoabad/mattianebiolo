@@ -11,7 +11,7 @@
 
   p{
     color:grey;
-    font-size: 0.5em;
+    font-size: 1em;
   }
 
   ul{
@@ -30,7 +30,7 @@
 
   .titulo-seccion{
     color: black;
-    font-size: 3.2em;
+    font-size: 3em;
     letter-spacing: 4px;
     margin: 80px;
   }
