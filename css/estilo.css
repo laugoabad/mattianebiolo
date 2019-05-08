@@ -107,23 +107,31 @@
     margin-top: 40px;
   }
 
-  .footer{
+  /* .footer{
     color: white;
     border-top: 8px solid crimson;
     background-color: grey;
     background-size: 1000% 1000% !important;
-}
+} */
 
   .zoom {
     transition: transform 1s; /* Animation */
   }
 
   .zoom:hover {
-    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-  }
+    transform: scale(1.2);
+    }
 
   .navbar-brand {
     font-size: 1.4rem;
+  }
+
+  .footer{
+    background-color: #463939;
+    margin: 40px;
+    border-radius:10px;
+    padding: 30px 60px 60px 60px;
+    box-shadow: 8px 8px 4px grey;
   }
 
   @keyframes altura1 {
@@ -191,15 +199,3 @@
     50% {transform: translate(0px, 120px);}
     100% {transform: translate(0px,0px);}
   }
-
-@-webkit-keyframes changeColors {
-    0% {
-        background-position: 0 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0 50%;
-    }
-}
