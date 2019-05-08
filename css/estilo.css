@@ -11,7 +11,7 @@
 
   p{
     color:grey;
-    font-size: 1.5em;
+    font-size: 1.5rem;
   }
 
   ul{
@@ -29,7 +29,7 @@
 
   .titulo-seccion{
     color: black;
-    font-size: 3em;
+    font-size: 2.8rem;
     letter-spacing: 4px;
     margin: 60px;
   }
@@ -44,7 +44,6 @@
     margin: 30px 0 30px 0;
   }
 
-
   .hola {
     width: 120px;
     height: 120px;
@@ -53,7 +52,7 @@
     -webkit-border-radius: 50%;
     background-color: black;
     color: white;
-    font-size: 1.6em;
+    font-size: 1.6rem;
     font-weight: 700;
     margin-top: 40px;
     margin-bottom:10px;
@@ -85,7 +84,7 @@
     color:black;
     margin-top: 50px;
     text-align: center;
-    font-size: 5em;
+    font-size: 5rem;
     font-weight: 900;
     animation-duration: 4s;
   }
@@ -100,7 +99,7 @@
 
   .saludo3{
     width: 100%;
-    font-size: 2em;
+    font-size: 2rem;
     color: #333333;
     text-align: center;
     animation-duration: 9s;
@@ -108,12 +107,23 @@
     margin-top: 40px;
   }
 
+  .footer{
+    color: white;
+    border-top: 8px solid crimson;
+    background-color: grey;
+    background-size: 1000% 1000% !important;
+}
+
   .zoom {
     transition: transform 1s; /* Animation */
   }
 
   .zoom:hover {
     transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+  .navbar-brand {
+    font-size: 1.4rem;
   }
 
   @keyframes altura1 {
@@ -182,22 +192,14 @@
     100% {transform: translate(0px,0px);}
   }
 
-
-  /* @keyframes animateSkills {
-    0% { transform: translateX(-1000px);}
-    100% {transform: translate(1300px);}
-  }
-
-  @-o-keyframes animateSkills  {
-    0% { transform: translate(-1000px);}
-    100% {transform: translate(1300px);}
-  }
-  @-moz-keyframes animateSkills {
-    0% { transform: translate(-1000px);}
-    100% {transform: translate(1300px);}
-  }
-
-  @-webkit-keyframes animateSkills  {
-    0% { transform: translate(-1000px);}
-    100% {transform: translate(1300px);}
-  } */
+@-webkit-keyframes changeColors {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
