@@ -11,7 +11,7 @@
 
   p{
     color:grey;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   ul{
@@ -45,8 +45,7 @@
  }
 
   .imagenes{
-    margin: 30px;
-    /* min-width: 300px; */
+    padding: 2em;
   }
 
   ul{
@@ -69,10 +68,22 @@
 
   .footer{
     background-color: #463939;
+    margin-top: 3rem;
     border-radius:10px;
     padding: 30px;
     box-shadow: 8px 8px 4px grey;
   }
+
+  @media(min-width:576px) {
+  p {
+    font-size: 1.8rem;
+  }
+  .imagenes {
+      min-width: 400px;
+      min-height: 400px;
+  }
+  }
+
 
   @keyframes altura1 {
     0% { transform: translate(0px, 600px);}
