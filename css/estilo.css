@@ -11,7 +11,7 @@
 
   p{
     color:grey;
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   ul{
@@ -80,17 +80,17 @@
   }
 
   img {
-    width: 80%;
-    height: 80%;
+    width: 70%;
+    height: 70%;
     }
 
   .navbar-brand {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
    }
 
    .carousel-inner img {
-     width: 50%;
-     height: 50%;
+     width: 40%;
+     height: 40%;
    }
   }
 
