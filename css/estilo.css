@@ -74,13 +74,15 @@
     box-shadow: 8px 8px 4px grey;
   }
 
-  @media(min-width:425px) {
+  @media(min-width:430px) {
   p {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
-
+  img {
+    width: 400px;
+    height: 400px;
   }
-
+  }
 
   @keyframes altura1 {
     0% { transform: translate(0px, 600px);}
