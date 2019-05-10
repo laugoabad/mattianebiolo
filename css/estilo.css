@@ -87,7 +87,20 @@
   .navbar-brand {
     font-size: 1.8rem;
    }
+
+   .carousel-inner img {
+     width: 50%;
+     height: 50%;
+   }
   }
+
+  .carousel-control-next {
+    filter: invert(100%);
+    }
+
+  .carousel-control-prev {
+      filter: invert(100%);
+      }
 
   @keyframes altura1 {
     0% { transform: translate(0px, 600px);}
