@@ -53,7 +53,6 @@
     margin: 30px 0 30px 0;
   }
 
-
   .zoom {
     transition: transform 1s; /* Animation */
   }
@@ -77,11 +76,16 @@
 
   @media(min-width:1024px) {
   p {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 
+  img {
+    width: 80%;
+    height: 80%;
+    }
+
   .navbar-brand {
-    font-size: 2rem;
+    font-size: 1.8rem;
    }
   }
 
