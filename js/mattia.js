@@ -1,5 +1,5 @@
 
 $(function(){
-  $("#nav-placeholder").load("./nav.html");
-  $("#footer-placeholder").load("./footer.html");
+  $("#nav-placeholder").load("../nav.html");
+  $("#footer-placeholder").load("../footer.html");
 });
