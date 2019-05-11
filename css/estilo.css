@@ -45,7 +45,7 @@
  }
 
   .imagenes{
-    padding: 2em;
+    padding: 1em;
   }
 
   ul{
@@ -83,6 +83,15 @@
      filter: invert(100%);
      }
 
+  figure {
+    margin: 0px 0px 1rem 0px;
+  }
+
+ figcaption {
+   font-weight: bold;
+   font-size: 1.2rem;
+
+ }
   @media(min-width:1024px) {
   p {
     font-size: 1.1rem;
