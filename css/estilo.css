@@ -34,13 +34,17 @@
     margin: 8rem 0px 2rem 0px;
   }
 
+  section#profilo {
+    margin-bottom: 12rem;
+  }
+
   .imagenes{
     padding: 1em;
   }
 
   ul{
     list-style: none;
-    margin: 10px 0 10px 0;
+    margin: 3px 0 3px 0;
   }
 
   ul.contatto {
