@@ -91,6 +91,7 @@
  figcaption {
    font-size: 2rem;
    letter-spacing: 2px;
+   font-weight: 500;
  }
   @media(min-width:1024px) {
   p {
