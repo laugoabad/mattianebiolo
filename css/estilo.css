@@ -74,7 +74,6 @@
 
   footer{
     background-color: white;
-    font-size: 1.6rem;
     color: black;
     font-weight: 500;
     margin-top: 6rem;
@@ -112,7 +111,7 @@
    }
 
    .navbar-nav .nav-link {
-     font-size: 0.8rem;
+     font-size: 1rem;
    }
 
    figcaption {
