@@ -23,12 +23,14 @@
     background-color: white;
     color: black;
     margin-top: 6rem;
+    padding: 1rem;
+    font-weight: 600;
   }
 
   footer li {
     float: left;
-    padding: 0.4rem;
-    font-size: 1.5rem;
+    /* padding: 0.4rem; */
+    font-size: 1.6rem;
   }
 
   a, a:hover, a:visited, a:link {
