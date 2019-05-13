@@ -16,6 +16,17 @@
 
   ul{
     list-style: none;
+    margin: 3px 0 3px 0;
+    font-size: 1.6rem;
+  }
+
+  ul.contatto {
+    /* padding-top: 20px; */
+  }
+
+  footer li {
+    float: left;
+    padding: 0.4rem;
   }
 
   a, a:hover, a:visited, a:link {
@@ -42,20 +53,7 @@
     padding: 1em;
   }
 
-  ul{
-    list-style: none;
-    margin: 3px 0 3px 0;
-    font-size: 1.6rem;
-  }
 
-  ul.contatto {
-    /* padding-top: 20px; */
-  }
-
-  footer li {
-    float: left;
-    padding: 0.4rem;
-  }
 
   .zoom {
     transition: transform 1s; /* Animation */
