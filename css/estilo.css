@@ -48,7 +48,12 @@
   }
 
   ul.contatto {
-    padding-top: 20px;
+    /* padding-top: 20px; */
+  }
+
+  li {
+    float: left;
+    padding: 0.6rem;
   }
 
   .zoom {
@@ -63,8 +68,8 @@
     font-size: 1.8rem;
   }
 
-  .navbar-nav .nav-link {
-    font-size: 1.5rem;
+  a.nav-item.nav-link {
+    font-size: 0.8rem;
   }
 
   footer{
@@ -107,7 +112,7 @@
    }
 
    .navbar-nav .nav-link {
-     font-size: 1rem;
+     font-size: 0.8rem;
    }
 
    figcaption {
