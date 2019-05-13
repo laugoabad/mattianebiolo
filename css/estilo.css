@@ -1,5 +1,5 @@
   body{
-    background-color: #d9d5dd;
+    background-color: #ded5e1;
     margin:40px 60px 40px 60px;
     font-family: 'Montserrat', sans-serif;
     font-size: 100%;
@@ -45,6 +45,7 @@
   ul{
     list-style: none;
     margin: 3px 0 3px 0;
+    font-size: 1.6rem;
   }
 
   ul.contatto {
@@ -54,7 +55,6 @@
   footer li {
     float: left;
     padding: 0.4rem;
-    font-size: 1rem;
   }
 
   .zoom {
