@@ -24,6 +24,7 @@
     color: black;
     margin-top: 6rem;
     padding: 1rem;
+    font-size: 5rem;
     font-weight: 600;
   }
 
@@ -54,7 +55,7 @@
     color: black;
     font-size: 2rem;
     letter-spacing: 4px;
-    margin: 8rem 0px 2rem 0px;
+    margin: 5rem 0px 2rem 0px;
   }
 
   .imagenes{
