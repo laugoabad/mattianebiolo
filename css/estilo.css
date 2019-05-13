@@ -1,5 +1,5 @@
   body{
-    background-color: #ded5e1;
+    background-color: #d9d9d9;
     margin:40px 60px 40px 60px;
     font-family: 'Montserrat', sans-serif;
     font-size: 100%;
@@ -28,7 +28,7 @@
   footer li {
     float: left;
     padding: 0.4rem;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 
   a, a:hover, a:visited, a:link {
@@ -40,15 +40,15 @@
     -webkit-text-align: center;
   }
 
+  section#profilo {
+    margin-bottom: 12rem;
+  }
+
   .titulo-seccion{
     color: black;
     font-size: 2rem;
     letter-spacing: 4px;
     margin: 8rem 0px 2rem 0px;
-  }
-
-  section#profilo {
-    margin-bottom: 12rem;
   }
 
   .imagenes{
@@ -66,7 +66,6 @@
   .navbar-brand {
     font-size: 1.8rem;
   }
-
 
   .carousel-item {
     width:100%;
@@ -86,6 +85,8 @@
    letter-spacing: 2px;
    font-weight: 500;
  }
+
+
   @media(min-width:1024px) {
   p {
     font-size: 1.1rem;
@@ -99,15 +100,15 @@
     font-size: 1.2rem;
    }
 
-   .navbar-nav .nav-link {
+   /* .navbar-nav .nav-link {
      font-size: 1rem;
-   }
+   } */
 
    figcaption {
      font-size: 1.2rem;
    }
 
-   footer {
+   footer li{
      font-size: 1rem;
    }
   }
