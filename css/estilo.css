@@ -17,16 +17,18 @@
   ul{
     list-style: none;
     margin: 3px 0 3px 0;
-    font-size: 1.6rem;
   }
 
-  ul.contatto {
-    /* padding-top: 20px; */
+  footer{
+    background-color: white;
+    color: black;
+    margin-top: 6rem;
   }
 
   footer li {
     float: left;
     padding: 0.4rem;
+    font-size: 1.5rem;
   }
 
   a, a:hover, a:visited, a:link {
@@ -53,8 +55,6 @@
     padding: 1em;
   }
 
-
-
   .zoom {
     transition: transform 1s; /* Animation */
   }
@@ -67,15 +67,6 @@
     font-size: 1.8rem;
   }
 
-  a.nav-item.nav-link {
-    font-size: 1rem;
-  }
-
-  footer{
-    background-color: white;
-    color: black;
-    margin-top: 6rem;
-  }
 
   .carousel-item {
     width:100%;
