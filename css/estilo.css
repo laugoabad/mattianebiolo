@@ -53,12 +53,12 @@ section#profilo {
 
 .fixed-top {
   margin:1em 0em;
-  padding: 0.6em;
-  font-size: 2em;
+  padding: 1em;
+  font-size: 1em;
 }
 
 .navbar-brand {
-  font-size: 2.5em;
+  font-size: 1.5em;
 }
 
 .carousel-item {
