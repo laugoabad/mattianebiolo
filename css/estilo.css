@@ -77,7 +77,7 @@ figcaption {
 
 @media(max-width:425px) {
   .navbar-brand, .navbar-toggler, .nav-link  {
-    font-size: 1.1em;
+    font-size: 1em;
   }
 }
 
