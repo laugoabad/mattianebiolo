@@ -54,11 +54,10 @@ section#profilo {
 .fixed-top {
   margin:1em 0em;
   padding: 1em;
-  /* font-size: 1em; */
 }
 
 .navbar-brand {
-  font-size: 1em;
+  font-size: 1.1em;
 }
 
 .carousel-item {
@@ -90,9 +89,10 @@ figcaption {
     width: 90%;
   }
 
-  .navbar-brand {
-    font-size: 1.2em;
+  .navbar-brand, .navbar-toggler  {
+    font-size: 2em;
   }
+
 
   figcaption {
     font-size: 1.2em;
