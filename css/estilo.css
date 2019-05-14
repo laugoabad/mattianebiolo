@@ -58,12 +58,12 @@ section#profilo {
 }
 
 .navbar-brand {
-  font-size: 2em;
+  font-size: 1.2em;
 }
 
 .carousel-item {
   width:100%;
-  height: 470px;
+  height: 500px;
 }
 
 .carousel-control-next, .carousel-control-prev  {
