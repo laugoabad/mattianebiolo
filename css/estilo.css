@@ -1,8 +1,12 @@
   body{
     background-color: #d9d9d9;
-    margin:40px 60px 40px 60px;
+    margin-top: 50px;
     font-family: 'Montserrat', sans-serif;
     font-size: 100%;
+  }
+
+  h2.titulo-seccion {
+  font-size: 2em;
   }
 
   h6 {
@@ -11,7 +15,8 @@
 
   p{
     color:grey;
-    font-size: 1.8em;
+    font-size: 1em;
+    padding:20px;
   }
 
   ul{
@@ -27,10 +32,10 @@
   }
 
   footer li {
-    float: left;
-    padding: 0.4em;
+    /* float: left;
+    padding: 0.4em; */
     font-weight: 600;
-    font-size: 2.8em;
+    font-size: 0.7em;
   }
 
    footer .nav-link {
@@ -52,9 +57,9 @@
 
   .titulo-seccion{
     color: black;
-    font-size: 2em;
+    font-size: 1.4em;
     letter-spacing: 4px;
-    margin: 5em 0px 2em 0px;
+    margin: 2.5em 0px 1em 0px;
   }
 
   .imagenes{
@@ -70,7 +75,7 @@
     }
 
   .navbar-brand {
-    font-size: 2em;
+    font-size: 0.8em;
   }
 
   .carousel-item {
@@ -87,7 +92,7 @@
   }
 
  figcaption {
-   font-size: 4em;
+   font-size: 1.1em;
    letter-spacing: 2px;
    font-weight: 500;
  }
@@ -95,6 +100,7 @@
   @media(min-width:767px) {
   p {
     font-size: 1.1em;
+    margin-bottom:0px;
   }
 
   section#progetti img {
