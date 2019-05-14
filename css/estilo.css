@@ -81,7 +81,7 @@ figcaption {
   }
 }
 
-@media(min-width:768px) {
+@media(min-width:768px)and(max-width: 1023px) {
   p {
     font-size: 2em;
     margin-bottom:0px;
@@ -92,7 +92,7 @@ figcaption {
   }
 
   .navbar-brand, .navbar-toggler, .nav-link  {
-    font-size: 1em;
+    font-size: 2em;
   }
 
   figcaption {
