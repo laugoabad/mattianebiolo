@@ -1,85 +1,85 @@
-  body{
-    background-color: #d9d9d9;
-    margin-top: 50px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 100%;
-  }
+body{
+  background-color: #d9d9d9;
+  margin-top: 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 100%;
+}
 
-  h2.titulo-seccion {
+h2.titulo-seccion {
   font-size: 1.6em;
-  }
+}
 
-  h6 {
-    color: #ad9d98;
-  }
+h6 {
+  color: #ad9d98;
+}
 
-  p{
-    color:grey;
-    font-size: 1em;
-    padding:20px;
-  }
+p{
+  color:grey;
+  font-size: 1em;
+  padding:20px;
+}
 
-  a, a:hover, a:visited, a:link {
-    text-decoration: none;
-    color: black;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    -webkit-text-align: center;
-  }
+a, a:hover, a:visited, a:link {
+  text-decoration: none;
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  -webkit-text-align: center;
+}
 
-  section#profilo {
-    margin-bottom: 5em;
-  }
+section#profilo {
+  margin-bottom: 5em;
+}
 
-  .titulo-seccion{
-    color: black;
-    font-size: 1.2em;
-    letter-spacing: 4px;
-    margin: 5em 0px 1em 0px;
-  }
+.titulo-seccion{
+  color: black;
+  font-size: 1.2em;
+  letter-spacing: 4px;
+  margin: 5em 0px 1em 0px;
+}
 
-  .imagenes{
-    padding: 1em;
-  }
+.imagenes{
+  padding: 1em;
+}
 
-  .zoom {
-    transition: transform 1s; /* Animation */
-  }
+.zoom {
+  transition: transform 1s; /* Animation */
+}
 
-  .zoom:hover {
-    transform: scale(1.1);
-    }
+.zoom:hover {
+  transform: scale(1.1);
+}
 
-    .fixed-top {
-      margin:1em 0em;
-      padding: 0.6em;
-    }
+.fixed-top {
+  margin:1em 0em;
+  padding: 0.6em;
+}
 
-  .navbar-brand {
-    font-size: 0.8em;
-  }
+.navbar-brand {
+  font-size: 3em;
+}
 
-  .carousel-item {
-    width:100%;
-    height: 470px;
-  }
+.carousel-item {
+  width:100%;
+  height: 470px;
+}
 
-   .carousel-control-next, .carousel-control-prev  {
-     filter: invert(100%);
-     }
+.carousel-control-next, .carousel-control-prev  {
+  filter: invert(100%);
+}
 
-  figure {
-    margin: 0px 0px 1em 0px;
-  }
+figure {
+  margin: 0px 0px 1em 0px;
+}
 
- figcaption {
-   font-size: 1.1em;
-   letter-spacing: 2px;
-   font-weight: 500;
- }
+figcaption {
+  font-size: 1.1em;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
 
-  @media(min-width:768px) {
+@media(min-width:768px) {
   p {
     font-size: 1.1em;
     margin-bottom:0px;
@@ -87,15 +87,15 @@
 
   section#progetti img {
     width: 90%;
-    }
+  }
 
   .navbar-brand {
-    font-size: 1.2em;
-   }
+    font-size: 3em;
+  }
 
-   figcaption {
-     font-size: 1.2em;
-   }
+  figcaption {
+    font-size: 1.2em;
+  }
 
 
   @keyframes altura1 {
