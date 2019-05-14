@@ -56,8 +56,8 @@ section#profilo {
   padding: 1em;
 }
 
-.navbar-brand {
-  font-size: 1.1em;
+.navbar-brand, .navbar-toggler, .nav-link  {
+  font-size: 3em;
 }
 
 .carousel-item {
