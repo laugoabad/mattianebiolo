@@ -19,32 +19,6 @@
     padding:20px;
   }
 
-  ul{
-    list-style: none;
-    margin: 3px 0 3px 0;
-  }
-
-  ul.contatto {
-    padding-left:0px;
-  }
-
-  footer{
-    background-color: white;
-    color: black;
-    margin-top: 6em;
-    padding: 0.5em;
-  }
-
-  footer li {
-    float: left;
-    padding: 0.1em;
-    font-size: 0.6em;
-  }
-
-   footer .nav-link {
-     padding: 0px;
-   }
-
   a, a:hover, a:visited, a:link {
     text-decoration: none;
     color: black;
@@ -62,7 +36,7 @@
     color: black;
     font-size: 1.2em;
     letter-spacing: 4px;
-    margin: 2.5em 0px 1em 0px;
+    margin: 4em 0px 1em 0px;
   }
 
   .imagenes{
@@ -75,6 +49,11 @@
 
   .zoom:hover {
     transform: scale(1.1);
+    }
+
+    .fixed-top {
+      margin:2em;
+      padding: 1em 3em 1em 3em;
     }
 
   .navbar-brand {
@@ -100,7 +79,7 @@
    font-weight: 500;
  }
 
-  @media(min-width:425px) {
+  @media(min-width:768px) {
   p {
     font-size: 1.1em;
     margin-bottom:0px;
@@ -117,11 +96,6 @@
    figcaption {
      font-size: 1.2em;
    }
-
-   footer li{
-     font-size: 0.9em;
-   }
-  }
 
 
   @keyframes altura1 {
