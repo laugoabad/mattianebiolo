@@ -24,18 +24,21 @@
     margin: 3px 0 3px 0;
   }
 
+  ul.contatto {
+    padding-left:0px;
+  }
+
   footer{
     background-color: white;
     color: black;
     margin-top: 6em;
-    padding: 1em;
+    padding: 0.5em;
   }
 
   footer li {
-    /* float: left;
-    padding: 0.4em; */
-    font-weight: 600;
-    font-size: 0.7em;
+    float: left;
+    padding: 0.1em;
+    font-size: 0.6em;
   }
 
    footer .nav-link {
@@ -57,7 +60,7 @@
 
   .titulo-seccion{
     color: black;
-    font-size: 1.4em;
+    font-size: 1.2em;
     letter-spacing: 4px;
     margin: 2.5em 0px 1em 0px;
   }
@@ -97,7 +100,7 @@
    font-weight: 500;
  }
 
-  @media(min-width:767px) {
+  @media(min-width:425px) {
   p {
     font-size: 1.1em;
     margin-bottom:0px;
@@ -116,9 +119,10 @@
    }
 
    footer li{
-     font-size: 1em;
+     font-size: 0.9em;
    }
   }
+
 
   @keyframes altura1 {
     0% { transform: translate(0px, 600px);}
