@@ -30,7 +30,7 @@
     float: left;
     padding: 0.4em;
     font-weight: 600;
-    font-size: 1.8em;
+    font-size: 2.8em;
   }
 
    footer .nav-link {
@@ -87,7 +87,7 @@
   }
 
  figcaption {
-   font-size: 2em;
+   font-size: 4em;
    letter-spacing: 2px;
    font-weight: 500;
  }
