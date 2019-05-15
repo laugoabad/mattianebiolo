@@ -71,9 +71,10 @@ figcaption {
   font-weight: 500;
 }
 
-@media(max-width:425px) {
+@media(max-width:426px) {
   .navbar-brand, .navbar-toggler, .nav-link  {
     font-size: 0.7em;
+    padding: 0.2em;
   }
 
   .titulo-seccion{
