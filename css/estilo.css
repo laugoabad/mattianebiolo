@@ -79,6 +79,14 @@ figcaption {
   .navbar-brand, .navbar-toggler, .nav-link  {
     font-size: 0.8em;
   }
+
+  .titulo-seccion{
+    font-size: 1em;
+    letter-spacing:2px;
+    margin: 5em 0px 1em 0px;
+  }
+
+
 }
 
 @media(min-width:768px) {
