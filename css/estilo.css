@@ -73,19 +73,15 @@ figcaption {
 
 @media(max-width:426px) {
   .navbar-brand, .navbar-toggler, .nav-link  {
-    font-size: 0.7em;
-    padding: 0.2em;
+    font-size: 0.8em;
+    padding: 0.1em;
+    margin:0.6em 0em;
   }
 
   .titulo-seccion{
     font-size: 1em;
     letter-spacing:2px;
     margin: 4em 0px 1em 0px;
-  }
-
-  .fixed-top {
-    margin:0.6em 0em;
-    padding: 0.2em;
   }
 }
 
