@@ -79,10 +79,8 @@ figcaption {
   .titulo-seccion{
     font-size: 1em;
     letter-spacing:3px;
-    margin: 5em 0px 2em 0px;
+    margin: 4em 0px 2em 0px;
   }
-
-
 }
 
 @media(min-width:768px) {
