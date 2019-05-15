@@ -78,9 +78,14 @@ figcaption {
   }
 
   .titulo-seccion{
-    font-size: 1.2em;
-    letter-spacing:3px;
+    font-size: 1em;
+    letter-spacing:2px;
     margin: 4em 0px 1em 0px;
+  }
+
+  .fixed-top {
+    margin:0.6em 0em;
+    padding: 0.2em;
   }
 }
 
