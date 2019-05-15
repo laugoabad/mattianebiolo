@@ -35,6 +35,13 @@ section#profilo {
   margin: 5em 0px 2em 0px;
 }
 
+.titulo-progetto {
+  color: black;
+  font-size: 2em;
+  letter-spacing: 4px;
+  margin: 1em 0px 2em 0px;
+}
+
 .imagenes{
   padding: 1em;
 }
