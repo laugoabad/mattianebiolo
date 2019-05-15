@@ -81,7 +81,7 @@ figcaption {
   }
 }
 
-@media(min-width:768px)and(max-width: 1023px) {
+@media(min-width:768px) {
   p {
     font-size: 2em;
     margin-bottom:0px;
