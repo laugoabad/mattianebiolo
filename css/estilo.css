@@ -24,8 +24,8 @@ a, a:hover, a:visited, a:link {
   -webkit-text-align: center;
 }
 
-section#profilo {
-  margin-bottom: 5em;
+section {
+  margin-top: 10em;
 }
 
 .titulo-seccion{
@@ -55,7 +55,7 @@ section#profilo {
 }
 
 .fixed-top {
-  margin:0.6em 0em;
+  margin:0.8em 0em;
   padding: 0.2em 1em 0.2em 1em;
 }
 
