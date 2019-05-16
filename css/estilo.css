@@ -74,7 +74,7 @@ figure {
 
 figcaption {
   color: grey;
-  font-size: 1em;
+  font-size: 1.4em;
   font-weight: 500;
 }
 
@@ -114,6 +114,7 @@ figcaption {
 
   figcaption {
     font-size: 1.2em;
+    color: grey;
   }
 
 
