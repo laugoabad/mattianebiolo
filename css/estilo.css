@@ -36,8 +36,8 @@ section {
 }
 
 .titulo-progetto {
-  color: black;
-  font-size: 2em;
+  color: grey;
+  font-size: 1.5em;
   letter-spacing: 4px;
   margin: 1.5em 0px 1.5em 0px;
 }
@@ -92,7 +92,7 @@ figcaption {
   }
 
   .titulo-progetto {
-    font-size: 1.2em;
+    font-size: 1em;
     letter-spacing: 4px;
     margin: 2em 0px 1.5em 0px;
   }
