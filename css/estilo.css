@@ -96,6 +96,10 @@ figcaption {
     letter-spacing: 4px;
     margin: 2em 0px 1.5em 0px;
   }
+
+  section{
+    margin-top: 5em;
+  }
 }
 
 @media(min-width:768px) {
