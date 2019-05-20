@@ -78,6 +78,10 @@ figcaption {
   font-weight: 500;
 }
 
+.w3-animate-left, .w3-animate-right, .w3-animate-opacity {
+  animation-duration: 2s;
+}
+
 @media(max-width:426px) {
   .navbar-brand, .navbar-toggler, .nav-link  {
     font-size: 0.8em;
